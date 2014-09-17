@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: #4B92DB; /* United Nations blue is a very good blue */
+}
+
+header {
+    padding: 40px;
+    margin: 0px;
+    
+}
+
+#content {
+    background-color: #EEEEEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#contact li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content img {
+    float: left;
+    display: block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+footer {
+    padding: 5px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
