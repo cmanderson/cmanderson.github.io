@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Oxygen', sans-serif;
     
 }
 
@@ -12,7 +12,10 @@ body {
 header {
     padding: 40px;
     margin: 0px;
-    
+}
+
+header h1 {
+    font-size: 40px;
 }
 
 #content {
@@ -32,17 +35,30 @@ header {
 #contact li {
     display: inline;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#contact li a {
+    font-size: 30px;
+    color: #333333;
+}
+
+#contact li a:hover {
+    color: #005682;
+    transition: 0.25s color;
 }
 
 a {
     text-decoration: none;
+    color: #005682; /* this is also a nice blue */
 }
 
 #content img {
     float: left;
     display: block;
     margin-right: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid gray;
     height: 200px;
     width: auto;
